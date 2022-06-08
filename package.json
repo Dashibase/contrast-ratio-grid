@@ -1,0 +1,30 @@
+{
+  "name": "contrast-checker",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.6.4",
+    "@heroicons/vue": "^1.0.6",
+    "color-convert": "^2.0.1",
+    "pinia": "^2.0.14",
+    "pinia-plugin-persistedstate": "^1.6.1",
+    "relative-luminance": "^2.0.1",
+    "vue": "^3.2.25",
+    "vue-accessible-color-picker": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}

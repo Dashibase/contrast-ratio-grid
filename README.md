@@ -1,2 +1,5 @@
-# contrast-ratio-grid
-Check contrast ratios across a range of foregrounds and backgrounds. 
+# Contrast Ratio Grid
+
+- Compare multiple foregrounds/backgrounds at once
+- Color coded warnings when violating WCAG
+- Compare layers of backgrounds

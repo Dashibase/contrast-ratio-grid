@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button:focus-visible,
+[type="text"]:focus-visible, [type="email"]:focus-visible, [type="url"]:focus-visible, [type="password"]:focus-visible,
+[type="number"]:focus-visible, [type="date"]:focus-visible, [type="datetime-local"]:focus-visible,
+[type="month"]:focus-visible, [type="search"]:focus-visible, [type="tel"]:focus-visible, [type="time"]:focus-visible,
+[type="week"]:focus-visible, [multiple]:focus-visible, textarea:focus-visible, select:focus-visible {
+  box-shadow: none;
+  outline: 0px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #BBB;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #BBB;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #BBB;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #BBB;
+}
+input[type=range]::-ms-fill-upper {
+  background: #BBB;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #BBB;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #BBB;
+}
+input[type=range]::-webkit-slider-thumb {
+  border: 0px;
+  height: 12px;
+  width: 12px;
+  border-radius: 12px;
+  background: #888;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+input[type=range]::-moz-range-thumb {
+  border: 0px;
+  height: 12px;
+  width: 12px;
+  border-radius: 12px;
+  background: #888;
+  cursor: pointer;
+}
+input[type=range]::-ms-thumb {
+  border: 0px;
+  height: 12px;
+  width: 12px;
+  border-radius: 12px;
+  background: #888;
+  cursor: pointer;
+}
